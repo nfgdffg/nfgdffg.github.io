@@ -1,0 +1,69 @@
+<!Doctype html>
+<html>
+	<head> SVG File Shapes </head>
+		<title> Advanced Shapes </title>
+
+<body>
+	<nav style='background-color:gray; text-align:center; font-weight:bold; font-size:150%;'>
+			<a href='graphics1.html'>Graphics1</a> &nbsp &nbsp &nbsp
+			<a href='graphics2.html'>Graphics2</a> &nbsp &nbsp &nbsp
+			<a href='graphics3.html'>Graphics3</a> &nbsp &nbsp &nbsp
+			<a href='Shake.html'>Shake</a> &nbsp &nbsp &nbsp
+			<a href='cooltechniques.html'>Cooltechniques</a> &nbsp &nbsp &nbsp  
+	</nav> 
+	
+	<h1> First Advanced Shape </h1>
+		<h3> Star </h3>
+		<h3> Star 2 </h3>
+			<svg width='400' height='200'>
+				<polygon points='100,10 40,198 190,78 10,78
+				160,198' fill='lime' stroke='purple'/>
+		<hr>
+			</svg>
+		
+		<h3> Star 2 </h3>
+			<svg width='250' height='200'>
+				<polygon points='50,100 10,60 140,50 20,70
+				23,40' fill='red' stroke='black'/>
+			</svg>
+			
+		<h3> STOP sign </h3> 
+			<svg width='400' height='120'>
+				<polygon points = '40,13 80,13 110,40
+				110,80 80,110,40,110 13,80 13,40'
+				fill='red' stroke='black' />
+			<text x='30' y='70' font-size='25' fill='white'> 
+			STOP </text>
+			</svg>
+			
+		<h3> Diagonal Line </h3>
+			<svg width='400' height='120'>
+				<line x1='0' y1='0' x2='50' y2='100'
+				stroke='brown' />
+			</svg>
+			
+		
+		<h3> Straight Line </h3>
+			<svg width='400' height='120'>
+				<line x1='0' y1='0' x2='0' y2='100'
+				stroke='brown' />
+				<line x1='0' y1='0' x2='100' y2='0'
+				stroke='brown' />
+			</svg>
+		
+		<hr>
+		<h3> Star 2 </h3>
+			<svg width='400' height='200'>
+				<polygon points='100,10 40,198 190,78 10,78
+				160,198' fill='url(#s1)' stroke='black'/>
+				<defs>	
+					<linearGradient id='s1' x1='0%' y1='0%' x2='100%'
+					y2=0%'
+					<stop offset='0" style='stop-color:yellow;'/>
+					<stop offset='100%' style='stop-color:red;'/>
+					</linearGradient>
+				</defs>
+			</svg>
+</body>
+</html>
+			
